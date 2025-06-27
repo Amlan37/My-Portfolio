@@ -138,3 +138,79 @@ main section{
     padding: 30px ;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.1);
 }
+
+
+/* Resume Section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+
+}
+.column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ex-title{
+    font-size: 25px;
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+
+.ex-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ex-description, .ex-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* Footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.icons{
+    padding: 10px;
+}
+
+.c-icon{
+    padding-right: 10px;
+    padding-bottom: 0px;
+
+}
+.c-number{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0px;
+    color: #757575;
+    padding-top: 0px;
+}
+.contact{
+    display: flex;
+}
